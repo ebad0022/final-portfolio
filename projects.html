@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <style>
+      .navbar-brand, .navbar-nav .nav-link {
+      color: #BE1841 !important;
+    }
+    .navbar-custom, .navbar-custom .navbar-nav .nav-link {
+      color: #BE1841 !important;
+    }
+    footer {
+      color: #BE1841 !important; 
+    }
+    footer a {
+      color: #BE1841 !important; 
+    }
+       
+    .navbar {
+      background-color: #DFCBD0 !important;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    footer {
+      background-color: #DFCBD0 !important;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    main {
+  flex: 1;
+  background-color: #F0E5E8; 
+  padding-top: 20px;
+  padding-left: 60px;
+
+  .main-h1 {
+        color: #BE1841;
+    }
+
+    .project-card {
+      border: none;
+      background: none;
+    }
+    .project-image {
+      border-radius: 50%;
+      width: 300px; 
+      height: 300px; 
+      object-fit: cover;
+      border: 2px solid #fff; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+    .project-month {
+      font-size: 1.5rem;
+      color: #BE1841;
+      margin-top: 30px;
+    }
+    .view-button {
+      border: none;
+      background-color: #BE1841;
+      color: #fff;
+      padding: 5px 15px;
+      margin-top: 10px;
+    }
+    .view-button:hover {
+      background-color: #9e1635; 
+    }
+    .projects-container {
+      padding: 30px;
+      background-color: #ECECEC; 
+    }
+  
+
+
+
+  min-height: 110rem; /*make sure this size is okay*/
+
+}
+  </style>
+
+
+</head>
+
+<body>
+
+  <!-- Skip to content link for keyboard navigation -->
+  <a href="#maincontent" class="skip-link">Skip to content</a>
+
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Yoyo's DSB</a>
+          
+            <div class="d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <main id="maincontent" class="main">
+        <h1 class="main-h1">Projects</h1>
+
+        <div class="container my-5">
+            <div class="text-center projects-container">
+              <p>Here are all of my recent projects so far! I'm currently working on a project where each month I will create a collage with pictures I've taken to create a small scrapbook page. This has been very fun, I think its a great way to memorialize special moments in a creative way. I hope you enjoy!</p>
+              
+              <!-- Monthly Projects -->
+              <div class="project-month">January:</div>
+              <div class="card project-card mx-auto my-3">
+                <img src="images/january.png" class="card-img-top project-image mx-auto" alt="January Project">
+                <div class="card-body">
+                  <h5 class="card-title">Yoyo's Scrapbook 01/23: New Year New Ish</h5>
+                  <a href="#" class="btn view-button">View project here</a>
+                </div>
+              </div>
+
+              <div class="project-month">February:</div>
+              <div class="card project-card mx-auto my-3">
+                <img src="images/February.png" class="card-img-top project-image mx-auto" alt="February Project">
+                <div class="card-body">
+                  <h5 class="card-title">February: Yoyo’s Scrapbook 02/23: Another Gone Girl</h5>
+                  <a href="#" class="btn view-button">View project here</a>
+                </div>
+              </div>
+
+              <div class="project-month">March:</div>
+              <div class="card project-card mx-auto my-3">
+                <img src="images/March.png" class="card-img-top project-image mx-auto" alt="March Project">
+                <div class="card-body">
+                  <h5 class="card-title">March: Yoyo’s Scrapbook 03/23: To New Begginings!</h5>
+                  <a href="#" class="btn view-button">View project here</a>
+                </div>
+              </div>
+        </main>
+
+      <footer class="text-lg-start">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              © 2024 Yoyo's DSB
+            </div>
+            <div class="col-6 text-end">
+              <a href="https://instagram.com">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
